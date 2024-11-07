@@ -1,5 +1,4 @@
 anthropic
-asyncio
 python-dotenv
 tavily-python
 Pillow
@@ -9,4 +8,3 @@ prompt_toolkit
 pydub
 websockets
 SpeechRecognition
-ollama
