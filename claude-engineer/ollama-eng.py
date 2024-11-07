@@ -70,16 +70,11 @@ MAX_CONTEXT_TOKENS = 200000  # Reduced to 200k tokens for context window
 
 # Models
 # Models that maintain context memory across interactions
-# MAINMODEL = "mistral-nemo"  # Maintains conversation history and file contents
+MAINMODEL = "mistral-nemo"  # Maintains conversation history and file contents
 
 # Models that don't maintain context (memory is reset after each call)
-# TOOLCHECKERMODEL = "mistral-nemo"
-# CODEEDITORMODEL = "mistral-nemo"
-
-MAINMODEL = "claude-3-5"
-TOOLCHECKERMODEL = "claude-3-5"
-CODEEDITORMODEL = "claude-3-5"
-CODEEXECUTIONMODEL = "claude-3-5"
+TOOLCHECKERMODEL = "mistral-nemo"
+CODEEDITORMODEL = "mistral-nemo"
 
 # System prompts
 BASE_SYSTEM_PROMPT = """
@@ -1016,3 +1011,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+

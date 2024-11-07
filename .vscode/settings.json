@@ -20,5 +20,6 @@
         "HTML (EEx)",
         "HTML (Eex)",
         "plist",
-    ]
+    ],
+    "editor.fontSize": 15,
 }
